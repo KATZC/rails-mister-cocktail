@@ -1,0 +1,40 @@
+.content{
+  display: flex
+}
+
+a {
+  color: #B5EAD7;
+}
+.card {
+  background-size: cover;
+  background-position: center;
+  height: 130px;
+  border-color: #B5EAD7;
+  border-width: thick;
+  // align-items: center;
+  color: #B5EAD7;
+  font-size: 5px;
+  font-weight: thin;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width:350px;
+  margin-top: 200px;
+
+}
+
+.cards {
+  // flex-grow: 1;
+
+  padding: 10px;
+  margin-top: 0px;
+}
+.image-card-cocktail {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.name-cocktail {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3C3C3C;
+}

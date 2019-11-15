@@ -1,0 +1,14 @@
+<h1 class="h1">Les cocktails</h1>
+
+ <div class="container">
+  <div class='row cards d-flex flex-row flex-wrap justify-content-around align-items-center'>
+    <% @cocktails.each do |cocktail| %>
+      <div class="d-flex card">
+        <%= image_tag "cocktail.jpg", class: 'image-card-cocktail' %>
+        <h2 class="name-cocktail"><%= link_to cocktail.name, cocktail_path(cocktail) %></h2>
+      </div>
+  <% end %>
+  </div>
+</div>
+
+
